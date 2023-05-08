@@ -32,8 +32,8 @@ public class Program {
 	 */
 	static void task1(){
 		try {
-			int [] arr1 = new SetArray().generateArray();
-			int [] arr2 = new SetArray().generateArray();
+			int [] arr1 = new SetArray().setArray();
+			int [] arr2 = new SetArray().setArray();
 			int [] result = new ProcessArray().arraysDifference(arr1, arr2);
 			for (int a1 : arr1) System.out.printf("%d\t", a1);
 			System.out.println();
@@ -55,8 +55,8 @@ public class Program {
 	 */
 	static void task2(){
 		try {
-			int [] arr1 = new SetArray().generateArray();
-			int [] arr2 = new SetArray().generateArray();
+			int [] arr1 = new SetArray().setArray();
+			int [] arr2 = new SetArray().setArray();
 			int [] result = new ProcessArray().arraysDivide(arr1, arr2);
 			for (int a1 : arr1) System.out.printf("%d\t", a1);
 			System.out.println();
